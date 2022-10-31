@@ -5,31 +5,31 @@ body {
     font-family: lato, sans-serif;
 }
 
-.aaa {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa 
-img {
+.header
+.matrix-img {
     width: 100%;
 }
 
-.aaa
-.more_inf {
+.header
+.matrix-img-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { 
+.header { 
     text-align: center;
 }
 
 }
 
-.centered-main-page-element {
+.wrapper {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -41,7 +41,7 @@ img {
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-block {
     display: flex;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.main-title,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
